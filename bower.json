@@ -1,0 +1,23 @@
+{
+  "name": "simple-card",
+  "authors": [
+    "Héctor Iván <hectorivanpatriciomoreno@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/Polymer#^1.2.4",
+    "webcomponentsjs": "Polymer/webcomponentsjs#^0.7.20",
+    "iron-input": "PolymerElements/iron-input#^1.0.8"
+  }
+}

@@ -1,0 +1,52 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-input/iron-input.html">
+
+<dom-module id="simple-card">
+    <style>
+        .caaard{
+            width: 100px;
+            height: 100px;
+            border: dashed red 2px;
+            font-family: sans-serif;
+        }
+        .details{
+            font-size: .5em;
+            color: #666;
+        }
+        .big{
+            color: red;
+            font-weight: 2em;
+        }
+    </style>
+
+    <template>
+        <div class="caaard">
+            <input is="iron-input" placeholder="Escribe la Edad" bind-value="{{edad}}"
+            >
+            <content></content>
+            <div class="details">
+                Creador: <span>{{creador}}</span>
+                <br>
+                Edad <span class="big">{{edad}}</span>
+            </div>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "simple-card",
+            properties: {
+                creador: {
+                    type: String,
+                    value: "Héctor"
+                },
+                edad: {
+                    type: String,
+                    value: "20"
+                }
+            }
+        })
+    </script>
+</dom-module>
+
+
