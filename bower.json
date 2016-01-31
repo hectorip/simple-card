@@ -3,7 +3,7 @@
   "authors": [
     "Héctor Iván <hectorivanpatriciomoreno@gmail.com>"
   ],
-  "description": "",
+  "description": "Simple Web component to test publication of packages with bower",
   "main": "",
   "moduleType": [],
   "license": "MIT",
